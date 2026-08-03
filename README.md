@@ -1,5 +1,7 @@
 # Lost in Hyperspace - Hack The Box CTF Writeup
 
+<img width="838" height="648" alt="2" src="https://github.com/user-attachments/assets/e1431f16-39a4-44bb-9739-371d74dc53b6" />
+
 An algorithmic and geometric walkthrough of the **"Lost in Hyperspace"** challenge from Hack The Box (HTB). This challenge explores the exploitation of AI embeddings and high-dimensional spaces by hiding a flag inside a 512-dimensional vector layout.
 
 ## 📝 Challenge Description
@@ -14,6 +16,9 @@ The challenge provides a `.npz` file, which is a standard compressed archive con
 ---
 
 ## The Core Theory (Tesseract Projection)
+
+<img width="799" height="551" alt="1" src="https://github.com/user-attachments/assets/de4dcd88-1081-42a7-a441-e5d536363d1f" />
+
 
 The clue lies entirely in the phrase *"A cube is the shadow of a tesseract casted on 3 dimensions"*. 
 
@@ -36,3 +41,7 @@ The exploit path implements a **Greedy Nearest Neighbor (Greedy Path)** algorith
 2. Dynamically search for the correct starting character (`H`) that triggers a valid flag path.
 3. Walk point-by-point through the 3D space by calculating the minimum Euclidean distance between the current node and all unvisited nodes.
 4. Stop after the first 23 tokens to discard the trailing decorative noise vectors.
+
+P.S run the final code snippet provided to see the geometric representation of the HTB flag, trust me, it's really worth it :)
+
+The plotly library is capable of providing a real 3D representation of the "Hyperspace", you can even drag the figure with the mouse to see the representation from multiple angles
