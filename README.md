@@ -4,6 +4,26 @@
 
 An algorithmic and geometric walkthrough of the **"Lost in Hyperspace"** challenge from Hack The Box (HTB). This challenge explores the exploitation of AI embeddings and high-dimensional spaces by hiding a flag inside a 512-dimensional vector layout.
 
+## Installation & Quick Start
+
+Clone this repository and spin up the environment locally or directly in Google Colab:
+
+```bash
+# Clone the repository
+git clone https://github.com
+cd HTB-Lost-in-Hyperspace-Writeup
+
+# Install the required mathematical and visualization dependencies
+pip install -r requirements.txt
+```
+
+### How to Run
+1. Place your target challenge dataset (`challenge_data.npz`) in the root directory.
+2. Open and execute `code_solver.ipynb` using Jupyter Notebook or import it into Google Colab via
+   ```python
+   from google.colab import files
+   uploaded = files.upload()
+   ```
 ## 📝 Challenge Description
 > *"A cube is the shadow of a tesseract casted on 3 dimensions. I wonder what other secrets may the shadows hold."*
 
