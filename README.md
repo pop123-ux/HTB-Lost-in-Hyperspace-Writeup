@@ -65,3 +65,8 @@ The exploit path implements a **Greedy Nearest Neighbor (Greedy Path)** algorith
 P.S run the final code snippet provided to see the geometric representation of the HTB flag, trust me, it's really worth it :)
 
 The plotly library is capable of providing a real 3D representation of the "Hyperspace", you can even drag the figure with the mouse to see the representation from multiple angles
+
+## 🔗 More
+
+- Author: [@pop123-ux](https://github.com/pop123-ux)
+- Medium write-ups: [medium.com/@Pop123](https://medium.com/@Pop123)
