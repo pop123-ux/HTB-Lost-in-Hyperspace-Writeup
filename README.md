@@ -2,6 +2,8 @@
 
 <img width="838" height="648" alt="2" src="https://github.com/user-attachments/assets/e1431f16-39a4-44bb-9739-371d74dc53b6" />
 
+_run the code_solver notebook yourself to visualize the interactive 3D plot :)_
+
 An algorithmic and geometric walkthrough of the **"Lost in Hyperspace"** challenge from Hack The Box (HTB). This challenge explores the exploitation of AI embeddings and high-dimensional spaces by hiding a flag inside a 512-dimensional vector layout.
 
 ## Installation & Quick Start
